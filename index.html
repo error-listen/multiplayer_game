@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+  <title>Multiplayer Game</title>
+  <style>
+    * {
+      font-family: 'Roboto Mono', monospace;
+      background-color: #DCDCDC;
+    }
+
+    body {
+      display: flex;
+    }
+
+    canvas {
+      width: 800px;
+      height: 600px;
+      box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .currentPlayer {
+      color: #4169E1;
+    }
+
+    .informations{
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    span{
+      margin: 10px 0px 0px 5px;
+    }
+
+    .score {
+      float: right;
+      font-weight: bold;
+    }
+  </style>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <div class="informations">
+    <table>
+
+    </table>
+    <span>You dead, refresh the page to back to the game.</span>
+  </div>
+</body>
+<script src="/static/game.js"></script>
+
+</html>
