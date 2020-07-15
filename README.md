@@ -29,7 +29,7 @@ To run this project in development mode, you will need of nodejs and npm, you ca
 <h3>Installing</h4>
 <h4>Cloning the Repository</h5>
 
-`$ git clone https://github.com/TemperoDeSal/multiplayer-game.git`
+`$ git clone https://github.com/error-listen/multiplayer_game.git`
 
 `$ cd multiplayer-game`
 
